@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+.student-card{
+  border: 1px solid black;
+  width: 250px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.card-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+img{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
 }
