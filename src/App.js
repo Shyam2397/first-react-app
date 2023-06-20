@@ -10,7 +10,7 @@ function App() {
     },
     {name:'sanjay',
     batch:'b47',
-    edu:'be'
+    edu:'BE'
     },
     {name:'sanjay',
     batch:'b47',
@@ -18,7 +18,7 @@ function App() {
     },
     {name:'sanjay',
     batch:'b47',
-    edu:'be'
+    edu:'BE'
     }
   ]
   return (
@@ -29,7 +29,8 @@ function App() {
           key={ind}
           name={stud.name}
           batch={stud.batch}
-          education={stud.edu}/>
+          education={stud.edu}
+          />
         ))}
       </div>
     </div>
